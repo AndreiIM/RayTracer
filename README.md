@@ -45,6 +45,6 @@ The application is launched from the `RayTracerApplication` located in the `util
 **Direction:** {1,-20,1}
 
 
-![Alt text](https://github.com/SuleymanOr/ProjectMasters/blob/read_me/Sphere_Cube.png "Sample Image")
+![alt text](https://github.com/AndreiIM/RayTracer/blob/master/Sphere_Cube.png "Sample Image")
 
 
