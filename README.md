@@ -3,7 +3,7 @@
 An interactive Ray Tracer application build under an MVC architecture.
 The application is launched from the `RayTracerApplication` located in the `utility` sub-package. Once the application has started proceed to http://localhost:8080.
 
-Parameter example for interface:
+
 ## Model Values for a sample scene:
 #### Sphere:
 **Radius:** 10\
