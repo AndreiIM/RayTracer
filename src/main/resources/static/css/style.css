@@ -1,0 +1,115 @@
+.jumbotron {
+    padding: 1rem 2rem;
+    margin-bottom: 1rem;
+    background-color: #333333;
+}
+
+.jumbotron p, .jumbotron h1{
+    color: #ffffff;
+}
+
+#shapes-accordion .card-header{
+    background-color: #333333;
+}
+
+#shapes-accordion .card-header button{
+    color: white;
+    text-decoration: none;
+}
+
+.shape-item, .light-item {
+    display: inline-block;
+    width: 15%;
+    border: solid 1px #333333;
+    padding: 5px 2px;
+    cursor: pointer;
+    margin: 0 10px 0 0;
+}
+
+.light-item {
+    width: 30%;
+}
+
+.shape-item:hover,.light-item:hover{
+    box-shadow: 0px 0px 4px #333333;
+}
+
+.light-item-name, .shape-item-name {
+    color: #333333;
+}
+
+.light-item-edit, .light-item-delete, .shape-item-edit, .shape-item-delete {
+    float: right;
+    background-color: #218838;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    width: 18px;
+    height: 18px;
+    line-height: 10px;
+    padding: 2px 2px;
+    margin-left: 2px;
+}
+
+.scene-control-item{
+    display: inline-block;
+    width:55% ;
+    margin: 0 2%;
+    height: 28%;
+    vertical-align: top;
+}
+
+#axis-helper{
+    width: 30%;
+}
+
+#light-card{
+    height: 100%;
+}
+#light-list{
+    overflow-y: scroll;
+    width: 100%;
+}
+#resultModal .modal-header{
+    justify-content: left;
+}
+
+#resultModal .modal-dialog{
+    max-width: 90%;
+}
+
+#render-button {
+    width: 100%;
+}
+
+#resultModal .modal-header .close{
+    position: absolute;
+    right: 15px;
+}
+
+#resultModal .modal-body{
+    text-align: center;
+}
+
+#result{
+    max-width: 100%;
+}
+
+.no-padding-left{
+    padding-left: 0;
+}
+
+.no-padding-right{
+    padding-right: 0;
+}
+
+.advanced{
+    cursor: pointer;
+    float: right;
+    font-size: .8em;
+    color: #555555;
+}
+
+.shape-item-edit{
+    display: none;
+}
